@@ -1,1 +1,1 @@
-bool nprimo (int ) ;
+bool nprimo (int , int) ;

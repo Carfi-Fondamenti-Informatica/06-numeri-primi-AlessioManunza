@@ -1,21 +1,21 @@
 #include "libreriaUno.h"
 
-bool nprimo (int n , int i) {
-    int div=1 ;
-    bool risultato;
-    i=0;
-    while(i<=1 and div<=n/2) {
-        if (n%div==0) {
-         bool nprimo(i++) ;
-        }
-        div++;
+bool nprimo (int n ) {
+     int i=1, x;
+  bool risultato;
+    if (n>1){
+    do {
+      i++;
+      x=n%i;
     }
-    if (i==1) {
-        risultato = true ;
-        return true;
+    while (x!=0);
+    if ( n==i ) {
+      risultato = 0;
+      return risultato;
     }
     else {
-        risultato = false ;
-       return false ;
+      risultato =1;
+      return risultato;
     }
+  }
 }

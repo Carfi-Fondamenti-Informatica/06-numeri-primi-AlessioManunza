@@ -1,9 +1,9 @@
 #include "libreriaUno.h"
 
 bool nprimo (int n ) {
-     int i=1, x;
+    int i=1, x;
   bool risultato;
-    if (n>1){
+  if (n>1){
     do {
       i++;
       x=n%i;

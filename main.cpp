@@ -4,13 +4,13 @@
 using namespace std;
 
 int main(){
-  int p;
-  cin >> p;
-  if (numeroprimo(p) == 0) {
-    cout << "numero primo" << endl;
-  }
-  else {
-    cout << "numero non primo" << endl;
-  }
-  return 0;
+   int n , i=0 ;
+    cin >> n;
+    if (nprimo(n,i) ==true) {
+        cout << "numero primo" << endl;
+    }
+    else {
+        cout << "numero non primo" << endl;
+    }
+
 }
